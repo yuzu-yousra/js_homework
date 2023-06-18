@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Playfair Display',serif;
+}
+body {
+    background-image: url(wp7919585-beige-desktop-wallpapers.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    background-color: #eee2ca;
+    border-radius: 10px;
+    font-size: 32px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+
+button{
+    width:100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+button{
+    background: rgb(110, 77, 5) ;
+    color: #eee2ca;
+    border-radius: 25px;
+    border:1px solid rgb(110, 77, 5);
+    width:150px;
+    height:50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:5px;
+    cursor:pointer;
+    
+}
+ button:hover{
+    background: rgba(182, 134, 32, 0.4) 
+}
+td{
+    content:'"';
+    background-color: #eee2ca;
+    width:700px;
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%); 
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+table,tr{
+    margin-top: 50px;
+    content:'"';
+}
